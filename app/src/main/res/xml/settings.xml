@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        app:key="unit"
+        app:title="@string/temperature_unit"
+        app:defaultValue="@string/imperial"
+        app:summary="@string/fahrenheit"
+        app:entries="@array/temperatures_entries"
+        app:entryValues="@array/temperatures_entry_values"
+        app:icon="@drawable/ic_cloud"
+        app:useSimpleSummaryProvider="true"/>
+
+    <ListPreference
+        app:key="api_lang"
+        app:title="@string/language"
+        app:defaultValue="@string/lang_en_value"
+        app:entries="@array/languages_entries"
+        app:entryValues="@array/languages_entry_values"
+        app:icon="@drawable/ic_language"
+        app:useSimpleSummaryProvider="true"/>
+
+    <SwitchPreferenceCompat
+        app:key="offline_mode"
+        app:title="@string/offline_mode"
+        app:summary="@string/offline_mode_requires"
+        app:defaultValue="false"
+        app:icon="@drawable/ic_wifi"/>
+
+</PreferenceScreen>

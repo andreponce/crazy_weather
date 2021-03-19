@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Crazy Weather</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_favorite">Favorites</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="lang_pt" translatable="false">Português (PT)</string>
+    <string name="lang_en" translatable="false">English (EN)</string>
+    <string name="lang_pt_value" translatable="false">pt</string>
+    <string name="lang_en_value" translatable="false">en</string>
+    <string name="language">Language</string>
+    <string name="temperature_unit">Temperature Unit</string>
+    <string name="offline_mode">Offline mode</string>
+    <string name="offline_mode_requires">The app requires a network to get data</string>
+    <string name="metric" translatable="false">metric</string>
+    <string name="imperial" translatable="false">imperial</string>
+    <string name="celsius" translatable="false">C°</string>
+    <string name="fahrenheit" translatable="false">F°</string>
+    <string name="type_city">Type a city</string>
+    <string name="search">Search</string>
+    <string name="no_network_access">No network access</string>
+    <string name="please_wait">Please wait! This may take a moment.</string>
+    <string name="generic_error">An error has occurred.</string>
+    <string name="favorite">Favorite</string>
+    <string name="delete">Delete</string>
+    <string name="added_to_favorites">Added to favorites.</string>
+    <string name="removed_from_favorites">Removed from favorites.</string>
+    <string name="not_found">Not found.</string>
+    <string name="no_favorite_items">No favorite items.</string>
+</resources>

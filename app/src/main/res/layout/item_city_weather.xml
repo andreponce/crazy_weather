@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="16dp"
+    android:background="@drawable/gradient_bg">
+
+    <TextView
+        android:id="@+id/city_name_txt"
+        style="@style/title_card"
+        android:ellipsize="end"
+        app:layout_constraintEnd_toStartOf="@+id/sky_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Buenos Aires" />
+
+    <TextView
+        android:id="@+id/country_abb_txt"
+        style="@style/text_card"
+        app:layout_constraintStart_toStartOf="@+id/city_name_txt"
+        app:layout_constraintTop_toBottomOf="@+id/city_name_txt"
+        android:textAllCaps="true"
+        tools:text="Ar" />
+
+    <TextView
+        android:id="@+id/sky_state_txt"
+        style="@style/text_card"
+        app:layout_constraintStart_toStartOf="@+id/country_abb_txt"
+        app:layout_constraintTop_toBottomOf="@+id/country_abb_txt"
+        tools:text="Clear sky" />
+
+    <TextView
+        android:id="@+id/temperature_txt"
+        style="@style/temperature"
+        app:layout_constraintStart_toStartOf="@id/sky_state_txt"
+        app:layout_constraintTop_toBottomOf="@+id/sky_state_txt"
+        tools:text="28" />
+
+    <TextView
+        android:id="@+id/unit_txt"
+        style="@style/text_card"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/temperature_txt"
+        app:layout_constraintTop_toBottomOf="@+id/sky_state_txt"
+        tools:text="ºC" />
+
+    <ImageView
+        android:id="@+id/sky_img"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:translationX="8dp"
+        android:translationY="-12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/city_name_txt"
+        app:srcCompat="@drawable/ic_cloud" />
+
+    <ImageView
+        android:id="@+id/humidity_img"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/temperature_txt"
+        app:layout_constraintStart_toEndOf="@+id/temperature_txt"
+        app:srcCompat="@drawable/ic_cloud_queue" />
+
+    <TextView
+        android:id="@+id/humidity_txt"
+        style="@style/text_card"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/humidity_img"
+        app:layout_constraintStart_toEndOf="@+id/humidity_img"
+        tools:text="86%" />
+
+    <ImageView
+        android:id="@+id/wind_img"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="45dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/humidity_txt"
+        app:layout_constraintStart_toEndOf="@+id/humidity_txt"
+        app:srcCompat="@drawable/ic_air" />
+
+    <TextView
+        android:id="@+id/wind_txt"
+        style="@style/text_card"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/wind_img"
+        app:layout_constraintStart_toEndOf="@+id/wind_img"
+        tools:text="4.12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Deu a louca no Clima</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_favorite">Favoritos</string>
+    <string name="menu_settings">Configurações</string>
+
+    <string name="language">Idioma</string>
+    <string name="temperature_unit">Unidade de temperatura</string>
+    <string name="offline_mode">Modo offline</string>
+    <string name="offline_mode_requires">O aplicativo necessita de internet para buscar dados</string>
+    <string name="type_city">Digite uma cidade</string>
+    <string name="search">Buscar</string>
+    <string name="no_network_access">Sem internet</string>
+    <string name="please_wait">Por favor espere! Isso pode levar algum tempo.</string>
+    <string name="generic_error">Ocorreu um erro.</string>
+    <string name="favorite">Favorito</string>
+    <string name="delete">Deletar</string>
+    <string name="added_to_favorites">Adicionado aos favoritos.</string>
+    <string name="removed_from_favorites">Removido de favoritos.</string>
+    <string name="not_found">Não encontrado.</string>
+    <string name="no_favorite_items">Nenhum item favoritado.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temperatures_entries">
+        <item>@string/celsius</item>
+        <item>@string/fahrenheit</item>
+    </string-array>
+    <string-array name="temperatures_entry_values">
+        <item>@string/metric</item>
+        <item>@string/imperial</item>
+    </string-array>
+    <string-array name="languages_entries">
+        <item>@string/lang_pt</item>
+        <item>@string/lang_en</item>
+    </string-array>
+    <string-array name="languages_entry_values">
+        <item>@string/lang_pt_value</item>
+        <item>@string/lang_en_value</item>
+    </string-array>
+</resources>
